@@ -1,15 +1,6 @@
 {
-	"Post": {
-		"title": { "string": {} },
-		"category": { "string": {} },
-		"comments": {
-			"hasMany": "Comment"
-		}
-	},
-	"Comment": {
-		"body": { "string": {} },
-		"post": {
-			"belongsTo": "Post"
-		}
+	"User": {
+		"name": { "string": {} },
+		"cookies": { "number": {} }
 	}
 }
