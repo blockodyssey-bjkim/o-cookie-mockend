@@ -1,6 +1,6 @@
 {
 	"User": {
 		"name": { "string": {} },
-		"cookies": { "int": {} }
+		"cookies": { "int": { "min": 0, "max": 1000000 } }
 	}
 }
