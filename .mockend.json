@@ -1,6 +1,6 @@
 {
 	"User": {
 		"name": { "string": {} },
-		"cookies": { "number": {} }
+		"cookies": { "int": {} }
 	}
 }
